@@ -1,6 +1,6 @@
- define(function(require, exports, module) {
+ define(function(require,exports,module) {
  	console.log('success')
- 	var $ = require('jq')
+ 	var $ = require('juqery');
  	$('#btnOrderAdd').click(function() {
  		alert('!!!!');
  	});
