@@ -1,0 +1,509 @@
+body {
+    font-family: verdana,helvetica,arial,sans-serif;
+    height: 100%;
+}
+
+.layout-split-north {
+    border-bottom: 5px solid #efefef;
+}
+
+.layout-split-south {
+    border-top: 5px solid #efefef;
+}
+
+.layout-split-east {
+    border-left: 5px solid #efefef;
+}
+
+.layout-split-west {
+    border-right: 5px solid #efefef;
+    border-left: 2px solid #efefef;
+}
+
+a {
+    margin-left: 10px;
+}
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+
+.cs-north {
+    height: 60px;
+    width: 100%;
+    background-image: url('/Content/Images/layout-head.png');
+    background-repeat: no-repeat;
+    background-color: #217db7;
+}
+
+.cs-north-bg {
+    width: 100%;
+    height: 100%;
+    background: url(themes/gray/images/header_bg.png) repeat-x;
+}
+
+.cs-west {
+    width: 200px;
+    padding: 0px;
+}
+
+.cs-navi-tab {
+    padding: 5px;
+    color: #0F6799;
+}
+
+.cs-tab-menu {
+    width: 120px;
+}
+
+.cs-home-remark {
+    padding: 10px;
+}
+
+.center {
+    margin: 0 auto 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.tree-node {
+    margin: 2px;
+}
+
+.tree-title {
+    font-size: 13px;
+}
+
+.panel-title {
+    font-size: 13px;
+}
+
+.cs-footer {
+    background: #efefef;
+    color: #999;
+}
+
+.ui-notfound {
+    background: url(Images/notfound.jpg);
+    width: 1000px;
+    height: 550px;
+}
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #ff0000;
+    font-size: 9pt;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #ff0000 !important;
+    background-color: #ffeeee !important;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #ff0000;
+    font-size: 9pt;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+/*LoginPage*/
+.setting {
+    float: right;
+    margin-top: 28px;
+    margin-right: 10px;
+    color: White;
+}
+
+    .setting a {
+        color: #fff;
+        float: right;
+    }
+
+        .setting a:link {
+            text-decoration: none;
+        }
+
+        .setting a:visited {
+            text-decoration: none;
+        }
+
+        .setting a:hover {
+            text-decoration: underline;
+            color: Orange;
+        }
+
+        .setting a:active {
+            text-decoration: none;
+        }
+
+    .setting .line {
+        color: #aaadb3;
+        float: right;
+        margin-left: 8px;
+    }
+
+.main-panel {
+    height: 100%;
+    background: url('/Content/Images/layout-login-bg.png') repeat 0px 0px;
+}
+
+.div-login-panel {
+    position: absolute;
+    margin: 0 auto;
+}
+
+.div-login-renderpanel {
+    width: 507px;
+    height: 319px;
+    position: absolute;
+    background: url('/Content/Images/layout-login-center.png') no-repeat 0px 0px;
+}
+
+.tb-login-container {
+    width: 300px;
+    height: 180px;
+    margin-left: 65px;
+    margin-top: 100px;
+}
+
+    .tb-login-container td {
+        padding: 0px;
+    }
+
+        .tb-login-container td label {
+            font-size: 10pt;
+            color: #000000;
+            font-weight: normal;
+        }
+
+.lb-login-input {
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    padding: 2px 2px 2px 20px;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    font-family: arial, "宋体";
+}
+
+.input-login-user {
+    background: url('/Content/Images/login-input-user-ico.png') no-repeat 96% 50% white;
+}
+
+.input-login-pwd {
+    background: url('/Content/Images/login-input-pwd-ico.png') no-repeat 96% 50% white;
+}
+
+.input-login {
+    width: 200px;
+    height: 25px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: arial, "宋体";
+    color: black;
+    line-height: 25px;
+    padding-right: 12px;
+    background-color: #fff;
+    cursor: auto;
+}
+
+    .input-login:focus {
+        border: 1px solid #eff3f4;
+    }
+
+.input-login-btn {
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    color: White;
+    font-size: 14pt;
+    padding: 4px;
+    border: 0px solid transparent;
+    background: url('/Content/Images/login-btn-ico-1.png') no-repeat 0px 0px;
+    float: left;
+}
+
+    .input-login-btn:hover {
+        background: url('/Content/Images/login-btn-ico-2.png') no-repeat 0px 0px;
+    }
+
+    .input-login-btn:active {
+        background: url('/Content/Images/login-btn-ico-2.png') no-repeat 0px 0px;
+    }
+
+.input-reset-btn {
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    color: White;
+    font-size: 14pt;
+    padding: 4px;
+    border: 0px solid transparent;
+    background: url('/Content/Images/reset-btn-ico-1.png') no-repeat 0px 0px;
+    float: right;
+}
+
+    .input-reset-btn:hover {
+        background: url('/Content/Images/reset-btn-ico-2.png') no-repeat 0px 0px;
+    }
+
+    .input-reset-btn:active {
+        background: url('/Content/Images/reset-btn-ico-2.png') no-repeat 0px 0px;
+    }
+
+.input-save-btn {
+    width: 100px;
+    height: 40px;
+    border: 2px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 5px #eee;
+    color: black;
+    line-height: 25px;
+    background: url('/Libs/EasyUI/themes/icons/filesave.png') no-repeat center left;
+    background-color: rgb(0,255,255);
+}
+
+.input-cancel-btn {
+    width: 100px;
+    height: 40px;
+    border: 2px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 5px #eee;
+    color: black;
+    line-height: 25px;
+    background: url('/Libs/EasyUI/themes/icons/cancel.png') no-repeat center left;
+    background-color: rgb(0,255,255);
+}
+
+.input-finance-btn {
+    width: 100px;
+    height: 40px;
+    border: 2px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 5px #eee;
+    color: black;
+    line-height: 25px;
+    background: url('/Libs/EasyUI/themes/icons/finance.png') no-repeat center left;
+    background-color: rgb(0,255,255);
+}
+
+/*CommomPage*/
+.inputbox {
+    width: 160px;
+    height: 20px;
+    box-shadow: inset 0 2px 5px #eee;
+    color: black;
+    font-size: 10pt;
+    line-height: 20px;
+    border: 1px solid #95B8E7;
+}
+
+.number {
+    text-align: right;
+}
+
+.number-align {
+    text-align: right;
+}
+
+.inputbox[readonly] {
+    background-color: #F0EFF0;
+    border-color: #cccccc;
+}
+
+textarea {
+    width: 420px;
+    height: 40px;
+    box-shadow: inset 0 2px 5px #eee;
+    color: black;
+    font-size: 10pt;
+    border: 1px solid #95B8E7;
+    height: 60px;
+    resize: none;
+}
+
+    textarea[readonly] {
+        background-color: #F0EFF0;
+        border-color: #cccccc;
+    }
+
+.ftitle {
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 10pt;
+    margin-bottom: 10px;
+}
+
+.fitem {
+    padding: 5px;
+    display: table;
+    position: relative;
+}
+
+.tb-edit {
+    padding-top: 5px;
+}
+
+    .tb-edit td {
+        padding: 5px 0;
+    }
+
+.table {
+    padding-top: 5px;
+}
+
+    .table td {
+        padding: 5px 0;
+    }
+        /*定义奇数列*/
+        .table td:nth-child(odd) {
+            text-align: right;
+        }
+
+            .table td:nth-child(odd) label {
+                position: relative;
+                font-size: 10pt;
+                color: #000000;
+                font-weight: normal;
+                text-align: right;
+                vertical-align: middle;
+                padding-right: 6px;
+            }
+        /*定义偶数列*/
+        .table td:nth-child(even) {
+            text-align: left;
+        }
+
+.table2 {
+}
+    /*定义奇数列*/
+    .table2 td {
+        text-align: right;
+    }
+
+        .table2 td label {
+            position: relative;
+            font-size: 10pt;
+            color: #000000;
+            font-weight: normal;
+            text-align: right;
+            vertical-align: middle;
+            padding-right: 6px;
+        }
+
+.formlabel {
+    display: table-cell;
+    position: relative;
+    width: 80px;
+    font-size: 10pt;
+    color: #000000;
+    font-weight: normal;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 8px;
+}
+
+.fitem label {
+    display: table-cell;
+    position: relative;
+    width: 80px;
+    font-size: 10pt;
+    color: #000000;
+    font-weight: normal;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.requiredinput {
+    background: url('/Content/Images/star.png') no-repeat center right;
+}
+
+.tbAduit {
+    border-left: 1px solid #95b8e7;
+    border-top: 1px solid #95b8e7;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+    .tbAduit td {
+        border-right: 1px solid #95b8e7;
+        border-bottom: 1px solid #95b8e7;
+        padding: 5px;
+    }
+
+fieldset
+{
+    border: 1px solid #95b8e7;
+    box-shadow: 0 2px 5px #eee inset;
+    font-size: 10pt;
+    margin: 0px;
+}
+fieldset legend
+{
+    color: #0E2D5F;
+    font-weight: bold;
+}
+.container
+{
+    float: left;
+    width: 100%;
+    display: inline;
+    min-width: 1135px;
+    font-size: 10pt;
+    height: auto;
+}
+
+.container-noborder
+{
+    float: left;
+    width: 100%;
+    display: inline;
+    min-width: 1135px;
+    font-size: 10pt;
+    height: auto;
+    margin-bottom:2px;
+}
+.container-grid
+{
+    float: left;
+    width: 100%;
+    display: inline;
+    min-width: 1135px;
+    font-size: 10pt;
+    height: auto;
+    border: 0;
+    margin-bottom: 2px;
+}
+.container-fixed
+{
+    background-color: #f0eff0;
+    background: linear-gradient(to bottom,#EFF5FF 0,#E0ECFF 100%);
+    left: 2px;
+    opacity: 1;
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+}
+.container-fixed fieldset
+{
+    border-top-width: 0px !important;
+}
