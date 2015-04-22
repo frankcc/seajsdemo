@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>Demo</title>
+    <title>CMD加载</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
    
@@ -16,7 +16,17 @@
      
 </head>
 <body style="margin:0px;">
-  
+  <script type="text/javascript">
+        seajs.config({
+            base: "./Libs/sea/",
+            alias: {
+              "jquery": "jq-sea",
+            }
+  });
+
+   seajs.use("./Scripts/test");
+      
+    </script>
 
     
 <style type="text/css">
@@ -331,15 +341,6 @@
         </div>
     </div>
 </div>
-  <script type="text/javascript">
-        seajs.config({
-            alias: {
-              "jquery": "/Libs/sea/jquery.js",
-            }
-  });
-
-   seajs.use("./Scripts/test");
-      
-    </script>
+  
 </body>
 </html>
